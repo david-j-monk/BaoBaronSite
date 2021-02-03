@@ -4,8 +4,8 @@ import bb_background from './../images/baobaronlogo.png'
 export class HomePage extends Component {
   render() {
     return (
-      <div>
-        <img src={bb_background} alt="bao baron logo"/>
+      <div className="bb-homepage">
+        <img className="bb-logo" src={bb_background} alt="bao baron logo"/>
       </div>
     )
   }
