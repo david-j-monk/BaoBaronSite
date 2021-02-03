@@ -1,11 +1,11 @@
+import React from 'react';
 import './App.css';
+import {PageHandler} from './components/PageHandler';
 
 function App() {
   return (
     <div className="App">
-      <header className="bb-header">
-        
-      </header>
+          <PageHandler />
     </div>
   );
 }
