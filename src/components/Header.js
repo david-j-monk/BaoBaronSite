@@ -16,6 +16,7 @@ export class Header extends Component {
           <div className="bb-nav-link bouncy ripple" style={{animationDelay: "0.42s"}} onClick={e => this.props.pageSwitcher(e.target.innerText)}><NavItem name="Publicity"/></div>
           <div className="bb-nav-link bouncy ripple" style={{animationDelay: "0.49s"}} onClick={e => this.props.pageSwitcher(e.target.innerText)}><NavItem name="How To Order"/></div>
         </div>
+        <div className="fade"></div>
       </div>
     )
   }
