@@ -4,7 +4,7 @@ export class Menu extends Component {
   render() {
     return (
       <div>
-        mendu
+        menu
       </div>
     )
   }
