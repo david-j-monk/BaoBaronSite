@@ -8,8 +8,8 @@ export class HomePage extends Component {
         Address:
         <br />
         <br />
-        Home Taproom, <br />
-        61 Tontine Street <br />
+        The Bao Baron, <br />
+        <br />
         Folkestone
         <br />
         CT20 1JR
