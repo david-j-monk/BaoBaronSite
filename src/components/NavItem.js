@@ -5,7 +5,7 @@ export class NavItem extends Component {
     const {name} = this.props;
     return (
       <div className="bb-nav-link">
-        {name}
+        {name!=="Home"?name:""}
       </div>
     )
   }

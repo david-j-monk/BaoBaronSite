@@ -19,8 +19,8 @@ background-repeat: no-repeat;
 background-size:contain;
   color:rgb(0, 0, 0, 0) ;
   width: 10vw;
-  min-width: 10em;
-  
+  min-width: 12em;
+
 }
 .bb-nav-links{
   display: flex;
@@ -41,6 +41,7 @@ background-size:contain;
   transform: translate3d(0, 0, 0);
   border-radius: 10%;
   text-shadow: 0 0 10px #ffffff;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .ripple:after {
