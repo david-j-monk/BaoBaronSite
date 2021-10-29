@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import { HomePage } from "./HomePage";
-import { HowToOrder } from "./HowToOrder";
 import { Menu } from "./Menu";
 import { Vegan } from "./Vegan";
-import { Publicity } from "./Publicity";
+// import { Publicity } from "./Publicity";
 import { Suppliers } from "./Suppliers";
 import { AboutUs } from "./AboutUs";
 
@@ -14,7 +13,7 @@ export class PageHandler extends Component {
     switch (param) {
       case "Home":
         return <HomePage />;
-      case "About Us":
+      case "Our Story":
         return <AboutUs />;
       case "Suppliers":
         return <Suppliers />;
@@ -22,10 +21,8 @@ export class PageHandler extends Component {
         return <Menu />;
       case "Vegan":
         return <Vegan />;
-      case "Publicity":
-        return <Publicity />;
-      case "How To Order":
-        return <HowToOrder />;
+      // case "Publicity":
+      //   return <Publicity />;
       default:
         return <HomePage />;
     }
