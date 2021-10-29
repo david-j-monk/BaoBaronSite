@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Header from "./Header";
-import { HomePage } from "./HomePage";
-import { Menu } from "./Menu";
-import { Vegan } from "./Vegan";
+import HomePage from "./HomePage";
+import  Menu from "./Menu";
+import  Vegan from "./Vegan";
 // import { Publicity } from "./Publicity";
-import { Suppliers } from "./Suppliers";
-import { AboutUs } from "./AboutUs";
+import Suppliers from "./Suppliers";
+import AboutUs from "./AboutUs";
 
 export class PageHandler extends Component {
   state = { currentPage: "Home" };
