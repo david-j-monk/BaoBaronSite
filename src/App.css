@@ -1,3 +1,11 @@
+
+@font-face {
+    font-family: 'AsianMainFont';
+    src: url(./style/Stickrice-8jez.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
 .App {
     text-align: center;
     display: flex;
@@ -165,6 +173,7 @@ body {
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: rgb(0, 0, 0);
+    font-family: AsianMainFont;
 }
 
 .burger-menu {
