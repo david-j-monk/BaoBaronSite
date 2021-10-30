@@ -7,6 +7,7 @@ import Publicity from "./Publicity";
 import Suppliers from "./Suppliers";
 import AboutUs from "./AboutUs";
 import Booking from "./Booking";
+import Footer from "./Footer";
 
 export class PageHandler extends Component {
   state = { currentPage: "Home" };
@@ -40,6 +41,7 @@ export class PageHandler extends Component {
       <div className="bb-page">
         <Header pageSwitcher={this.pageSwitcher} />
         <div className="bb-body">{this.renderSwitch(this.state.currentPage)}</div>
+        <Footer />
       </div>
     );
   }
