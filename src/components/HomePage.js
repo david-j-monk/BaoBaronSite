@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Instapost from './Instapost'
 import AboutUs from './AboutUs'
 
 export class HomePage extends Component {

@@ -5,7 +5,6 @@ import Menu from "./Menu";
 import Vegan from "./Vegan";
 import Publicity from "./Publicity";
 import Suppliers from "./Suppliers";
-import AboutUs from "./AboutUs";
 import Booking from "./Booking";
 import Footer from "./Footer";
 
