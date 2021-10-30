@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import HomePage from "./HomePage";
-import  Menu from "./Menu";
-import  Vegan from "./Vegan";
-// import { Publicity } from "./Publicity";
+import Menu from "./Menu";
+import Vegan from "./Vegan";
+import Publicity from "./Publicity";
 import Suppliers from "./Suppliers";
 import AboutUs from "./AboutUs";
+import Booking from "./Booking";
 
 export class PageHandler extends Component {
   state = { currentPage: "Home" };
@@ -13,7 +14,7 @@ export class PageHandler extends Component {
     switch (param) {
       case "Home":
         return <HomePage />;
-      case "Our Story":
+      case "About Us":
         return <AboutUs />;
       case "Suppliers":
         return <Suppliers />;
@@ -21,21 +22,23 @@ export class PageHandler extends Component {
         return <Menu />;
       case "Vegan":
         return <Vegan />;
-      // case "Publicity":
-      //   return <Publicity />;
+      case "Publicity":
+        return <Publicity />;
+        case "Booking":
+          return <Booking />;
       default:
         return <HomePage />;
     }
   }
 
-  pageSwitcher = (target) =>{
-    this.setState({currentPage: target});
+  pageSwitcher = (target) => {
+    this.setState({ currentPage: target });
   }
 
   render() {
     return (
       <div className="bb-page">
-        <Header pageSwitcher={this.pageSwitcher}/>
+        <Header pageSwitcher={this.pageSwitcher} />
         <div className="bb-body">{this.renderSwitch(this.state.currentPage)}</div>
       </div>
     );
