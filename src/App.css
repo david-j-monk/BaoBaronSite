@@ -14,6 +14,10 @@
     100% { top: 0em; }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     height: 100%;
@@ -102,7 +106,11 @@ body {
     min-height: 75vh;
 }
 
-.bb-homepage-about {
+.bb-homepage-section {
+    min-height: 100vh;
+}
+
+#about {
     background-color: #fff;
 }
 

@@ -15,8 +15,6 @@ export class PageHandler extends Component {
     switch (param) {
       case "Home":
         return <HomePage />;
-      case "About Us":
-        return <AboutUs />;
       case "Suppliers":
         return <Suppliers />;
       case "Menu":
@@ -36,10 +34,16 @@ export class PageHandler extends Component {
     this.setState({ currentPage: target });
   }
 
+  pageScroller = (page, target) => { 
+    this.setState({ currentPage: page });
+    var el = document.getElementById(target);
+    if (el) el.scrollIntoView();
+  }
+
   render() {
     return (
       <div className="bb-page">
-        <Header pageSwitcher={this.pageSwitcher} />
+        <Header pageSwitcher={this.pageSwitcher} pageScroller={this.pageScroller} />
         <div className="bb-body">{this.renderSwitch(this.state.currentPage)}</div>
         <Footer />
       </div>
