@@ -130,7 +130,7 @@ a:visited {
     background-size: cover;
     color: rgb(0, 0, 0, 0);
     min-width: 100%;
-    min-height: 75vh;
+    min-height: 78vh;
 }
 
 .bb-homepage-section {
@@ -188,7 +188,11 @@ a:visited {
 
     .bb-header {
         flex-direction: row;
-        min-height: 0vh;
+        min-height: 15vh;
+    }
+    
+    .bb-homepage-mainimage {
+        min-height: 85vh;
     }
 
     .bb-nav-links {
@@ -201,8 +205,7 @@ a:visited {
         position: absolute;
         top: 12vh;
         right: 0;
-        width: 30%;
-        min-width: 4em;
+        width: 100%;
         height: fit-content;
     }
 

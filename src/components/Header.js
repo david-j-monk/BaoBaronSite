@@ -29,7 +29,7 @@ export class Header extends Component {
           <Link to="/Booking"><div className="bb-nav-link bouncy ripple" style={{ animationDelay: "0.28s" }}><NavItem name="Booking" /></div></Link>
           <Link to="/Publicity"><div className="bb-nav-link bouncy ripple" style={{ animationDelay: "0.35s" }}><NavItem name="Publicity" /></div></Link>
         </div>
-        <div className={`bb-main-menu ${isActive ? "danger" : ""}`} onClick={this.handleToggle}>
+        <div className={`bb-main-menu ${isActive ? "open" : ""}`} onClick={this.handleToggle}>
           <div id="bb-main-menu-burger" className={isActive ? "open" : null}>
             <span></span>
             <span></span>
