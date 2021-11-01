@@ -192,8 +192,7 @@ body {
         position: absolute;
         top: 12vh;
         right: 0;
-        width: 30%;
-        min-width: 4em;
+        width: 100%;
         height: fit-content;
     }
 
