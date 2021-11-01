@@ -6,10 +6,10 @@
 @keyframes bouncy {
     0% {top: 0em}
     4% {top: 0em}
-    7% {top: -0.9em}
+    7% {top: -0.5em}
     9% {top: 0em}
     46% {top: 0em}
-    48% {top: -0.4em}
+    48% {top: -0.3em}
     50% {top: 0em}
     100% {top: 0em;}
 }
@@ -81,8 +81,9 @@ a:visited {
 
 .bb-nav-link {
     cursor: pointer;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: .5vh;
 }
 
 .bb-page {
@@ -104,7 +105,7 @@ a:visited {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 22vh;
+    height: fit-content;
     font-size: 32px;
     color: rgb(0, 0, 0);
     font-family: AsianMainFont;
@@ -158,11 +159,12 @@ a:visited {
     min-height: calc(78vh - 4em);
     background-image: url("./images/bb-pattern.jpeg");
     background-repeat: repeat;
-    background-size: 25%;
+    background-size: 50%;
 }
 
 
 #bb-header-logo-pos {
+    display: flex;
     width: 100%;
     margin: auto;
     padding-bottom: 1vh;
@@ -188,7 +190,6 @@ a:visited {
 
     .bb-header {
         flex-direction: row;
-        min-height: 15vh;
     }
     
     .bb-homepage-mainimage {
