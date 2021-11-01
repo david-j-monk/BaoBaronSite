@@ -37,7 +37,16 @@ body {
     height: 100%;
     background-color: black;
 }
+a:link {
+    text-decoration: none;
+    color: #010101;
+  }
+  
+a:visited {
+    text-decoration: none;
+    color: #010101;
 
+  }
 .App {
     text-align: center;
     display: flex;
@@ -144,10 +153,14 @@ body {
 }
 
 .bb-body {
-    background-color: white;
+
     margin: auto auto;
     min-height: calc(78vh - 4em);
+    background-image: url("./images/bb-pattern.jpeg");
+    background-repeat: repeat;
+    background-size: 25%;
 }
+
 
 #bb-header-logo-pos {
     width: 100%;
