@@ -43,13 +43,17 @@ body {
     background-origin: content-box;
     color: rgb(0, 0, 0, 0);
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
+
+
 
 .bb-nav-links {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .bb-nav-link {
@@ -189,6 +193,7 @@ body {
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
     }
 
     #bb-main-menu-burger {
