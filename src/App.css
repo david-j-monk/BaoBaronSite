@@ -121,7 +121,7 @@ body {
     background-size: cover;
     color: rgb(0, 0, 0, 0);
     min-width: 100%;
-    min-height: 75vh;
+    min-height: 78vh;
 }
 
 .bb-homepage-section {
@@ -175,7 +175,11 @@ body {
 
     .bb-header {
         flex-direction: row;
-        min-height: 0vh;
+        min-height: 15vh;
+    }
+    
+    .bb-homepage-mainimage {
+        min-height: 85vh;
     }
 
     .bb-nav-links {
