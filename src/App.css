@@ -157,16 +157,14 @@ body {
         margin-top: auto;
     }
 }
-
-@media (min-width: 55em) {
     .bb-body {
         width: 100%;
         background-color: white;
         margin: auto;
     }
-}
 
 @media (max-width: 45em) {
+
     .bb-header {
         flex-direction: row;
         min-height: 0vh;
@@ -188,12 +186,14 @@ body {
         padding: 1vh;
     }
     #bb-header-logo-pos {
-        height: 12vh;
+        height: 16vh;
         width: 75vw;
+        display: flex;
     }
     .bb-header-logo {
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
+        margin: auto auto;
     }
     .bouncy {
         display: none;
