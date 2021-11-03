@@ -148,6 +148,11 @@ a:visited {
     height: fit-content;
 }
 
+.bb-social-icon {
+    width: 24px;
+    height: 24px;
+}
+
 .bb-body {
     overflow: auto;
 }

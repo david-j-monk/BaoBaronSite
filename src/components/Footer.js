@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
 
+import facebookImageUrl from '../images/facebook/f_logo_RGB-Blue_1024.png';
+
 export class Footer extends Component {
   render() {
     return ( 
       <div className="bb-footer">
-          The Bao Baron,
-          <br />
-          Folkestone
-          <br />
-          CT20 1JR
+          <a href="https://www.facebook.com/thebaobaron"><img src={facebookImageUrl} alt="facebook" className="bb-social-icon" /></a>
       </div>
     )
   }
