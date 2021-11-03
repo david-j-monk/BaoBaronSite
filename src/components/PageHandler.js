@@ -44,7 +44,7 @@ export class PageHandler extends Component {
   render() {
     return (
       <Router>
-        <div className="bb-page">
+        <div className="bb-page bb-patterned-background">
           <Header pageSwitcher={this.pageSwitcher} pageScroller={this.pageScroller} />
           <div className="bb-body">
               {this.renderSwitch()}
