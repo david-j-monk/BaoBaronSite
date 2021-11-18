@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Menu extends Component {
+export class ResDiary extends Component {
   render() {
     return (
       <div>
@@ -13,4 +13,4 @@ export class Menu extends Component {
   }
 }
 
-export default Menu
+export default ResDiary
