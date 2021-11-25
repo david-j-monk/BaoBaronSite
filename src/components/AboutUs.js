@@ -16,15 +16,9 @@ Address:
           <br />
           <br />
           The Bao Baron, <br />
-          <br />
-          Folkestone
-          <br />
-          CT20 1JR
-          <br />
-          <br />
-          <br />
+          19 Guildhall Street, Folkestone, Kent. CT20 1EA
+          <br /><br />
           Contact Info:
-          <br />
           <br />
           01303244666 / the.lastbaron@outlook.com
           <br />
@@ -38,13 +32,13 @@ Address:
           <br />
           <br />
           Business hours:
+
           <br />
-          Wed - Thurs 5pm - 7:30pm
+          Wednesday - Thursday 12-3 & 6-9
           <br />
-          Fri - Sat 12pm - 2pm / 5pm / 8.30pm
+          Friday - Saturday 12-3 & 6-9.30
           <br />
-          Open Sundays during school holidays and national lockdowns 12pm - 2pm /
-          5pm / 7:30pm <br />
+          Open Sundays 12-3 during school holidays only.<br /><br /><br />
       </div>
     )
   }
