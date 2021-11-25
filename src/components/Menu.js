@@ -10,10 +10,10 @@ export class Menu extends Component {
     return (
       <div className='gallery'>
         <ul>
-           <li><img src= {Menu1} alt="First menu item" /></li>
-           <li><img src={Menu2} alt="Second menu item" /></li>
-           <li><img src={Menu3} alt="Third menu item" /></li>
-           <li><img src={Menu4} alt="Fourth menu item" /></li>
+          <li><img src={Menu1} alt="First menu item" /></li>
+          <li><img src={Menu2} alt="Second menu item" /></li>
+          <li><img src={Menu3} alt="Third menu item" /></li>
+          <li><img src={Menu4} alt="Fourth menu item" /></li>
         </ul>
       </div>
     )
