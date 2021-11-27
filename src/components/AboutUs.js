@@ -5,11 +5,10 @@ export class AboutUs extends Component {
     return (
       <div className="bb-about-us">
       <div className="bb-spacer" />
-        <div className="bb-about-us-words"><span className="bb-text-header">We never planned for it to be a permanent thing, it just grew.</span><br /><br />
-        The Bao Baron is the product of a partnership between award winning chef and founder, Greig Hughes, and his partner, Daisy Wootton. <br />The Bao Baron began during the first lockdown in March 2020; initially it was only ever going to be a couple of pop-up events to help make ends meet, but demand and feedback was so overwhelming that we just kept going!
+        <div className="bb-about-us-words">
+        The Bao Baron is a Pan-Asian street food restaurant inspired by seasonal Kentish produce.  Specialising in bao buns and ramen, everything from buns to broth is prepared in house and served fresh to order. By following the seasons and utilising local suppliers, we are able to provide a frequently changing menu that celebrates both the variety of Asian cuisines and the versatility of Kentish produce. Inclusivity is at the heart of what we do and we are proud to offer a considered selection of vegan, dairy free and gluten free dishes throughout our menu. 
         <br /><br />
-        The Bao Baron takes influences and inspiration from pan-asian cuisine. Our food is prepared using fresh, ethically sourced, local produce. <br />Everything is prepared in house right down to the sauces, and Greig utilizes 17 years of cheffing experience to create delicious, innovative food that reflects the seasons. <br />
-        We believe that fast food doesn’t have to be poor quality and that good food doesn’t have to carry an exclusive price tag, we want our food to be enjoyed by everyone!
+        A family run business, The Bao Baron is a product of the first national lockdown, established by local chef Greig Hughes and partner Daisy Wootton. Beginning as a side hustle to help ends meet during an uncertain time, its success and feedback was so overwhelming that the business simply continued to grow. From a tiny pop-up event tucked away in the Harbour Arm corridor, to a bustling lockdown takeaway hidden in a taproom on Tontine Street, The Bao Baron came full circle as a hugely popular food hut in the Harbour Arm East Yard during the Summer of 2021. By Autumn, a year on from its first pop-up, The Bao Baron finally took root as a permanent establishment in Guildhall Street.
         </div>
         <br />
         <span className="bb-text-header">Open Hours</span>

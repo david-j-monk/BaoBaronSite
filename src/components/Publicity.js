@@ -4,7 +4,7 @@ export class Publicity extends Component {
   render() {
     return (
       <div>
-        <br />
+        <div className="bb-spacer" />
         <b>The Guardian</b>
         <br />
         <a href='https://www.theguardian.com/travel/2021/jul/22/folkestones-10-best-new-bars-restaurants-cafe-street-food'>
@@ -26,16 +26,11 @@ export class Publicity extends Component {
         Folkestone street food: The Bao Baron</a>
         <br />
         <br />
-        <b>My Folkestone</b>
-        <br />
-        <a href='https://www.myfolkestone.co.uk/explore/faces-of-folkestone-greig-and-daisy-from-the-bao-baron_58'>
-        Faces of Folkestone Greig and Daisy from the Bao Baron</a>
-        <br />
-        <br />
         <b>Chefs Forum</b>
         <br />
         <a href='https://thechefsforum.co.uk/members/greig-hughes-docker/'>
         Greig Hughes: Docker</a>
+      <div className="bb-spacer" />
       </div>
     )
   }

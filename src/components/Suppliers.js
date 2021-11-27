@@ -27,7 +27,7 @@ export class Suppliers extends Component {
         Page & Sons<br />
         Docker Brewery<br />
         Chapel Down
-
+        <div className="bb-spacer" />
       </div>
     )
   }
