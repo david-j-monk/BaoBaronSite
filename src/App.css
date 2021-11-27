@@ -40,7 +40,7 @@ body {
     height: 100%;
     background-color: black;
     font-family: 'Arvo', sans-serif;
-    font-size: 1.2em;
+    font-size: 12pt;
 }
 a:link {
     text-decoration: none;
@@ -50,8 +50,8 @@ a:link {
 a:visited {
     text-decoration: none;
     color: #010101;
+}
 
-  }
 .App {
     text-align: center;
     display: flex;
@@ -138,8 +138,21 @@ a:visited {
     min-height: 78vh;
 }
 
-.bb-homepage-section {
-    min-height: 50vh;
+.bb-homepage-content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.bb-social-media-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.bb-spacer {
+    min-height: 20px;
 }
 
 .bb-footer {
@@ -151,9 +164,46 @@ a:visited {
     color: white;
     z-index: 100;
     height: fit-content;
+    min-height: 20vh;
+    font-size: 11pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-.bb-suppliers{
+.bb-footer a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bb-footer-address {
+    align-self: flex-end;
+}
+  
+.bb-footer a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bb-align-bottom {
+    margin-top: auto;
+}
+
+.bb-footer-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    height: 100%;
+    flex: 2;
+    gap: 20px;
+}
+
+.bb-suppliers {
     margin: auto;
     width: 80vw;
 }
@@ -161,6 +211,20 @@ a:visited {
 .bb-social-icon {
     width: 24px;
     height: 24px;
+}
+
+.bb-text-header {
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+.bb-open-days {
+    font-style: italic;
+}
+
+
+.bb-open-extraInfo {
+    font-size: 11pt;
 }
 
 .bb-body {
@@ -194,11 +258,19 @@ a:visited {
   margin: auto;  
 }
 
-.map iframe{
+.bb-map-container {
+    display: flex;
+    flex-grow: 2;
+}
 
-    height: 50vh;
+.bb-map {
+    min-height: 50vh;
+    flex-grow: 2;
+}
+
+.bb-map iframe{
+    height: 100%;
     width: 80%;
-    margin:auto;
     border:0;
 }
 

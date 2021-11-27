@@ -4,6 +4,7 @@ export class Suppliers extends Component {
   render() {
     return (
       <div className="bb-suppliers">
+        <div className="bb-spacer" />
         <a href="https://www.instagram.com/worgansfarmshop/"><b><u>Worgan’s</u></b><br />Suppliers of local meats, fish and produce from their Canterbury based farm shop.</a>
         <br />
         <br />

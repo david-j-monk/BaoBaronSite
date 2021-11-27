@@ -8,11 +8,15 @@ export class HomePage extends Component {
     return (
       <div className="bb-homepage-layout"> 
         <div className="bb-homepage-mainimage" />
-        <div id="about" className="bb-homepage-section">
-          <AboutUs />
-        </div>
-        <div>
-          <Map />
+        <div className="bb-homepage-content">
+          <div id="about" className="bb-homepage-section">
+            <AboutUs />
+          </div>
+          <div className="bb-spacer" />
+          <div className="bb-map-container">
+            <Map />
+          </div>
+          <div className="bb-spacer" />
         </div>
       </div>
     );
