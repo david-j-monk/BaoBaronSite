@@ -8,6 +8,9 @@ export class Header extends Component {
   handleToggle = () => {
     this.setState({ isActive: !this.state.isActive });
   };
+  turnOffMenu = () => {
+    this.setState({ isActive: false });
+  };
 
   render() {
     const isActive = this.state.isActive;
@@ -15,7 +18,7 @@ export class Header extends Component {
       <div className="bb-header">
 
         <div id="bb-header-logo-pos">
-          <Link to="/home" className="bb-header-logo ripple" ><NavItem name="Home" />
+          <Link to="/home" className="bb-header-logo ripple" onClick={this.turnOffMenu}><NavItem name="Home" />
           </Link>
         </div>
 
