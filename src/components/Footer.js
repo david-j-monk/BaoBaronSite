@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import facebookImageUrl from '../images/facebook/f_logo_RGB-Blue_1024.png';
-import instagramImageUrl from '../images/instagram.jpg';
+import instagramImageUrl from '../images/instagram.png';
 
 export class Footer extends Component {
   render() {
