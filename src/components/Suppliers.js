@@ -11,7 +11,7 @@ export class Suppliers extends Component {
         <a href="https://www.herbfedpoultry.co.uk/"><b><u>Herb Fed Poultry</u></b><br />Supplied to us via Worgan’s, Herb Fed Poultry provide high welfare, organic herb fed Yorkshire chicken.</a>
         <br />
         <br />
-        <a href="https://www.ediblekingdom.co.uk/"><b><u>Edible Kingdom, Wye</u></b><br />Growers of high quality mushrooms, using local resources and organic waste.</a>
+        <a href="https://www.facebook.com/EdibleKingdom/"><b><u>Edible Kingdom, Wye</u></b><br />Growers of high quality mushrooms, using local resources and organic waste.</a>
         <br />
         <br />
         <a href="https://davidcatt.co.uk/"><b><u>David Catts & Sons, Kent</u></b><br />Wholesale distributor and independent Kent supplier of fresh fruit and vegetables from their farm in Boughton Monchelsea.</a>
