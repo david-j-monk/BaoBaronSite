@@ -79,6 +79,8 @@ a:visited {
     justify-content: space-around;
     align-items: center;
     -webkit-tap-highlight-color: transparent;
+    white-space: nowrap;
+    word-wrap: normal;
 }
 
 .bb-nav-link {
@@ -86,6 +88,7 @@ a:visited {
     padding-left: 1vw;
     padding-right: 1vw;
     padding-bottom: .5vh;
+    min-width: calc(100% / 6)
 }
 
 .bb-page {
