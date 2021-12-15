@@ -313,7 +313,9 @@ padding-top: .5em;
     margin: auto;
     width: 50vw;
 }
-
+.time-list-container{
+    position: relative !important;
+}
 @media (max-width: 45em) {
 
     .bb-header {
