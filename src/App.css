@@ -87,7 +87,8 @@ a:visited {
     cursor: pointer;
     padding-left: 1vw;
     padding-right: 1vw;
-    padding-bottom: .5vh;
+    padding-top: .25vh;
+    padding-bottom: .25vh;
     min-width: calc(100% / 6)
 }
 
