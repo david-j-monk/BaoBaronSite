@@ -281,10 +281,33 @@ a:visited {
     justify-content: center;
     padding-inline-start: 0;
 }
+.menu{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    min-width: fit-content;
+}
+.menu table{
+    width: 100%;
+}
 
-.gallery img {
-    width: 90%;                   /* occupy 100% width of li container */
-    height: auto;
+.menu ul {
+    list-style: none;
+    justify-content: left;
+}
+.menu td {
+text-align: left;
+padding-top: .5em;
+}
+
+.MenuSection{
+    margin-bottom: 2em;
+}
+.MenuSection i{
+    font-weight: normal;
+}
+.price{
+    text-align: right !important;
 }
 .bb-about-us-words {
     margin: auto;
