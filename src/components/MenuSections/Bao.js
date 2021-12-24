@@ -11,9 +11,6 @@ export class Bao extends Component {
                         <th colspan="2"><b>Bao</b></th>
                     </tr>
                     <tr>
-                        <th colspan="2"><i>any 3 for 13.50, any vegan 3 for 12.50</i></th>
-                    </tr>
-                    <tr>
                         <td>Pork belly, apple & fennel slaw, miso cashews (contains nuts)</td>
                         <td className='price'>5.00</td>
                     </tr>
