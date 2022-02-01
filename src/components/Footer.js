@@ -10,7 +10,7 @@ export class Footer extends Component {
         <div className="bb-footer-content">
           <div className="bb-footer-address">
               <a href="tel:01303259703">01303 259703</a>
-              <br /><a href="mailto:the.lastbaron@outlook.com">the.lastbaron@outlook.com</a>
+              <br /><a href="mailto:info@thebaobaron.co.uk">info@thebaobaron.co.uk</a>
           </div>  
           <div>
             <div className="bb-social-media-links">
