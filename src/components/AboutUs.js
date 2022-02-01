@@ -13,11 +13,9 @@ export class AboutUs extends Component {
         <br />
         <span className="bb-text-header">Open Hours</span>
         <br />
-        <span className="bb-open-days">Wednesday - Thursday</span> : <span className="bb-open-time">12-3 & 6-9</span>
+        <span className="bb-open-days">Tues - Thur</span> : <span className="bb-open-time">12-2.30, 6-9</span>
         <br />
-        <span className="bb-open-days">Friday - Saturday</span> : <span className="bb-open-time">12-3 & 6-9.30</span>
-        
-        <div className="bb-open-extraInfo"><span className="bb-open-days">Sunday</span> : 12-3 during school holidays only</div>
+        <span className="bb-open-days">Friday & Saturday</span> : <span className="bb-open-time">12-2.30, 6-9.30</span>
       </div>
     )
   }
