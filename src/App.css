@@ -50,7 +50,9 @@ a:visited {
     text-decoration: none;
     color: #010101;
 }
-
+#menu-title {
+    font-size: 150%;
+}
 .App {
     text-align: center;
     display: flex;

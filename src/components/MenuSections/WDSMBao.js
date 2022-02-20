@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 
 
-export class Bao extends Component {
+export class WDSMBao extends Component {
     render() {
         return (
             <div className='MenuSection'>
@@ -11,31 +11,25 @@ export class Bao extends Component {
                         <th colspan="2"><b>Bao</b></th>
                     </tr>
                     <tr>
-                        <th colspan="2"><i>Freshly steamed bun</i></th>
+                        <th colspan="2"><i>any 2 with jasmine rice <span className='price'>£11.00</span></i></th>
                     </tr>
                     <tr>
                         <td>Pork belly, apple & fennel slaw, miso cashews (contains nuts)</td>
-                        <td className='price'>5.50</td>
                     </tr>
                     <tr>
                         <td>Free range chicken katsu curry, pickled ginger</td>
-                        <td className='price'>5.50</td>
                     </tr>
                     <tr>
                         <td>Local beef brisket bulgogi, Chinkiang onions, gochujang mayo</td>
-                        <td className='price'>5.50</td>
                     </tr>
                     <tr>
                         <td>Salt & pepper broccoli, roast onion, sesame mayo, Lao Gan Ma (vg)</td>
-                        <td className='price'>4.50</td>
                     </tr>
                     <tr>
                         <td>Portobello mushroom satay, pickled ginger, crispy shallot (vg)(contains peanuts)</td>
-                        <td className='price'>4.50</td>
                     </tr>
                     <tr>
                         <td>Sweet potato croquette, daikon, tonkatsu sauce (vg)</td>
-                        <td className='price'>4.50</td>
                     </tr>
                 </table>
             </div>
@@ -43,4 +37,4 @@ export class Bao extends Component {
     }
 }
 
-export default Bao
+export default WDSMBao

@@ -11,12 +11,16 @@ export class Dessert extends Component {
                         <th colspan="2"><b>Dessert</b></th>
                     </tr>
                     <tr>
-                        <td>Deep fried bao-nut, ube ice cream, miso caramel (vg)</td>
-                        <td className='price'>4.50</td>
+                        <td>Half bao nut and vanilla ice cream (vg)</td>
+                        <td className='price'>3.00</td>
                     </tr>
                     <tr>
-                        <td>Chocolate torte, blood orange sorbet (gf)(vg)</td>
-                        <td className='price'>5.25</td>
+                        <td>Chocolate torte (vg)(gf)</td>
+                        <td className='price'>4.00</td>
+                    </tr>
+                    <tr>
+                        <td>Scoop of ice cream/sorbet</td>
+                        <td className='price'>1.50</td>
                     </tr>
                 </table>
             </div>

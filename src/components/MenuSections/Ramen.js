@@ -11,23 +11,23 @@ export class Ramen extends Component {
                         <th colspan="2"><b>Ramen</b></th>
                     </tr>
                     <tr>
-                        <th colspan="2"><i>all served with homemade ramen style wheat noodles, spring onions and ½ free range soy egg.<br /> Gluten free available</i></th>
+                        <th colspan="2"><i>all served with homemade ramen style wheat noodles, spring onions and ½ free range soy cured egg. Gf available<br /> Gluten free available</i></th>
                     </tr>
                     <tr>
                         <td>Pork belly, bone broth, shio tare, mayu, spicy crackling, fennel</td>
                         <td className='price'>15.00</td>
                     </tr>
                     <tr>
-                        <td>Soy & sake braised venison, bone broth, Marmite tare, negi oil, mushroom, pak choi</td>
-                        <td className='price'>15.25</td>
+                        <td>Marmite & sake braised beef short-rib, bone broth, shoyu tare, XO sauce, broccoli</td>
+                        <td className='price'>15.50</td>
                     </tr>
                     <tr>
-                        <td>Crown Prince & mushroom, vegetable broth, miso tare, negi oil, cavolo nero, crispy shallots (v)(vg)</td>
+                        <td>Butternut squash & mushroom, veg broth, spicy miso tare, negi oil, pak choi, crispy shallots (v)(vg)</td>
                         <td className='price'>13.00</td>
                     </tr>
                     <tr>
-                        <td>Beetroot & celeriac, vegetable broth, soy tare, XO sauce, January King cabbage (v)(vg)</td>
-                        <td className='price'>12.50</td>
+                        <td>Miso roasted Skrei cod, vegetable broth, shio tare, nduja, daikon</td>
+                        <td className='price'>15.00</td>
                     </tr>
                 </table>
             </div>
