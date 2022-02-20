@@ -11,7 +11,8 @@ export class WDSMBao extends Component {
                         <th colspan="2"><b>Bao</b></th>
                     </tr>
                     <tr>
-                        <th colspan="2"><i>any 2 with jasmine rice <span className='price'>£11.00</span></i></th>
+                        <th><i>any 2 with jasmine rice </i></th>
+                        <td className='price'>11.00</td>
                     </tr>
                     <tr>
                         <td>Pork belly, apple & fennel slaw, miso cashews (contains nuts)</td>
