@@ -8,7 +8,7 @@ export class Kids extends Component {
             <div className='MenuSection'>
                 <table>
                 <tr>
-                    <th colspan="2"><i>all come with mayo dip, crudités, fruit and a choice of apple or orange juice</i></th>
+                    <th colspan="2"><i>all served with mayo dip, crudités, fruit and a choice of apple or orange juice</i></th>
                     </tr>
                     <tr>
                         <td>Chicken breast bao</td>
