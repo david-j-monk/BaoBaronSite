@@ -11,16 +11,13 @@ export class Ramen extends Component {
                         <th colspan="2"><b>Ramen</b></th>
                     </tr>
                     <tr>
-                        <td>Szechuan pulled pork, bone broth, shoyu tare, pak choi, wheat noodles</td>
-                        <td className='price'>12.00</td>
+                        <th colspan="2"><i>served with homemade wheat noodles, ½ free range soy cured egg & spring onions (gf available)</i></th>
                     </tr>
                     <tr>
-                        <td>Butternut squash, veg broth, spicy miso tare, pak choi, wheat noodles (vg)</td>
-                        <td className='price'>11.00</td>
+                        <td>Pork belly, bone broth, shoyu tare, pak choi</td>
                     </tr>
                     <tr>
-                        <td><i>Add free range soy cured egg</i></td>
-                        <td className='price'>1.00</td>
+                        <td>Butternut squash, veg broth, spicy miso tare, pak choi (vg)</td>
                     </tr>
                 </table>
             </div>

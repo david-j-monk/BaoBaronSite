@@ -8,14 +8,14 @@ export class Kids extends Component {
             <div className='MenuSection'>
                 <table>
                 <tr>
-                    <th colspan="2"><i>all served with mayo dip, crudités, fruit and a choice of apple or orange juice</i></th>
+                    <th colspan="2"><i>served with mayo dip, crudités, fruit and a choice of apple or orange juice</i></th>
                     </tr>
                     <tr>
                         <td>Chicken breast bao</td>
                         <td className='price'>7.50</td>
                     </tr>
                     <tr>
-                        <td>Crispy broccoli bao(vg)</td>
+                        <td>Crispy broccoli bao (vg)</td>
                         <td className='price'>7.50</td>
                     </tr>
                     <tr>

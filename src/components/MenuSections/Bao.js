@@ -14,11 +14,11 @@ export class Bao extends Component {
                         <th colspan="2"><i>Freshly steamed bun</i></th>
                     </tr>
                     <tr>
-                        <td>Pork belly, apple & fennel slaw, miso cashews (contains nuts)</td>
+                        <td>Pork belly, apple & fennel slaw, miso cashews, Granny Smith & chilli ketchup (contains nuts) </td>
                         <td className='price'>5.50</td>
                     </tr>
                     <tr>
-                        <td>Free range chicken katsu curry, pickled ginger</td>
+                        <td>Free range chicken katsu curry, pickled ginger, crispy chicken skin</td>
                         <td className='price'>5.50</td>
                     </tr>
                     <tr>

@@ -11,7 +11,7 @@ export class Rice extends Component {
                         <th colspan="2"><b>Rice</b></th>
                     </tr>
                     <tr>
-                        <th colspan="2"><i>all served with jasmine rice and pickles</i></th>
+                        <th colspan="2"><i>served with jasmine rice and pickles</i></th>
                     </tr>
                     <tr>
                         <td>Free-range chicken breast katsu curry, local salad leaves</td>
@@ -23,15 +23,11 @@ export class Rice extends Component {
                     </tr>
                     <tr>
                         <td>Korean fried chicken bibimbap, pak choi & free range fried egg (gf)</td>
-                        <td className='price'>12.50</td>
+                        <td className='price'>13.00</td>
                     </tr>
                     <tr>
                         <td>Korean fried cauliflower bibimbap, pak choi & free range fried egg (gf)(v)(vg) </td>
-                        <td className='price'>11.50</td>
-                    </tr>
-                    <tr>
-                        <td>Chalk Stream trout, tarkari curry, purple sprouting broccoli (gf)</td>
-                        <td className='price'>13.50</td>
+                        <td className='price'>12.00</td>
                     </tr>
                 </table>
             </div>

@@ -18,6 +18,14 @@ export class Dessert extends Component {
                         <td>Chocolate torte, blood orange sorbet (gf)(vg)</td>
                         <td className='price'>5.25</td>
                     </tr>
+                    <tr>
+                        <td>Spiced sticky toffee pudding, miso butterscotch, Taywell vegan vanilla ice cream (gf)(vg)</td>
+                        <td className='price'>5.25</td>
+                    </tr>
+                    <tr>
+                        <td>2 scoops of ice cream or sorbet (please ask for today’s flavours)</td>
+                        <td className='price'>2.50</td>
+                    </tr>
                 </table>
             </div>
         )
