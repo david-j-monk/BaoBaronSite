@@ -17,7 +17,9 @@ export class AboutUs extends Component {
         <br />
         <span className="bb-open-days">Friday</span> : <span className="bb-open-time">12-2:30, 6-9:30</span>
         <br />
-        <span className="bb-open-days">Saturday</span> : <span className="bb-open-time">12-3, 5-9:30</span>
+        <span className="bb-open-days">Saturday</span> : <span className="bb-open-time">10-2, 5-9:30</span>
+        <br />
+        <span className="bb-open-days">Sunday</span> : <span className="bb-open-time">10-2</span>
 
       </div>
     )

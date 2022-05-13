@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 
 
-export class Rice extends Component {
+export class BrunchRice extends Component {
     render() {
         return (
             <div className='MenuSection'>
@@ -11,15 +11,19 @@ export class Rice extends Component {
                         <th colspan="2"><b>Rice Bowls</b></th>
                     </tr>
                     <tr>
-                        <th colspan="2"><i>Served with jasmine rice, kimchi, pickles, pak choi, slaw, local leaves and a fried free-range egg</i></th>
+                        <th colspan="2"><i>Served with jasmine rice, kimchi, pickles, slaw, local leaves</i></th>
                     </tr>
                     <tr>
-                        <td>Korean fried chicken (gf) </td>
+                        <td>Korean fried chicken, pak choi, fried free range egg (gf) </td>
                         <td className='price'>13.00</td>
                     </tr>
                     <tr>
-                        <td>Korean fried cauliflower (gf)(v)(vg)</td>
+                        <td>Korean fried cauliflower, pak choi, fried free range egg (gf)(v)(vg</td>
                         <td className='price'>12.00</td>
+                    </tr>
+                    <tr>
+                        <td>Smoked haddock kedgeree, curry tare, ramen egg (gf) </td>
+                        <td className='price'>12.50</td>
                     </tr>
                 </table>
             </div>
@@ -27,4 +31,4 @@ export class Rice extends Component {
     }
 }
 
-export default Rice
+export default BrunchRice

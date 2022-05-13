@@ -2,16 +2,16 @@ import React, { Component } from 'react'
 
 
 
-export class Snacks extends Component {
+export class BrunchSnacks extends Component {
     render() {
         return (
             <div className='MenuSection'>
                 <table>
-                    <tr >
+                    <tr>
                         <th colspan="2"><b>Snacks</b></th>
                     </tr>
                     <tr>
-                        <td>Miso roasted cashews</td>
+                    <td>Miso roasted cashews</td>
                         <td className='price'>3.00</td>
                     </tr>
                     <tr>
@@ -36,4 +36,4 @@ export class Snacks extends Component {
     }
 }
 
-export default Snacks
+export default BrunchSnacks

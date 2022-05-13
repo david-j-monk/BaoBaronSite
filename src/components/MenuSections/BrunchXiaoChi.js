@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 
 
-export class XiaoChi extends Component {
+export class BrunchXiaoChi extends Component {
     render() {
         return (
             <div className='MenuSection'>
@@ -30,10 +30,6 @@ export class XiaoChi extends Component {
                         <td className='price'>4.00</td>
                     </tr>
                     <tr>
-                        <td>Pak choi, asparagus, mushroom & nori XO (gf)(vg)</td>
-                        <td className='price'>4.00</td>
-                    </tr>
-                    <tr>
                         <td>Panko Skrei cod, Kewpie mayo, pickled daikon</td>
                         <td className='price'>7.00</td>
                     </tr>
@@ -41,18 +37,10 @@ export class XiaoChi extends Component {
                         <td>White cabbage slaw, furikake (v)(vg)</td>
                         <td className='price'>2.50</td>
                     </tr>
-                    <tr>
-                        <td>Sesame tiger prawn toast, pickled ginger</td>
-                        <td className='price'>6.50</td>
-                    </tr>
-                    <tr>
-                        <td>Charred hispi cabbage, ssamjang (v)(vg)</td>
-                        <td className='price'>4.00</td>
-                    </tr>
                 </table>
             </div>
         )
     }
 }
 
-export default XiaoChi
+export default BrunchXiaoChi
