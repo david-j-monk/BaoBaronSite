@@ -28,7 +28,7 @@ export class BrunchSnacks extends Component {
                     </tr>
                     <tr>
                         <td>Smacked cucumber</td>
-                        <td className='price'>2.50</td>
+                        <td className='price'>3.00</td>
                     </tr>
                 </table>
             </div>

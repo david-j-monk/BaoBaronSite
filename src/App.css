@@ -64,6 +64,15 @@ a:visited {
     display: unset !important;
 }
 
+.kids_option_instruction {
+    vertical-align: top;
+}
+
+.kids_option {
+ text-align: left;
+ column-span: 2;
+}
+
 .bb-header-logo {
     background-image: url("./images/logo.png");
     background-position: center;

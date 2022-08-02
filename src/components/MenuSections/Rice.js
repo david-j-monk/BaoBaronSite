@@ -15,11 +15,11 @@ export class Rice extends Component {
                     </tr>
                     <tr>
                         <td>Korean fried chicken (gf) </td>
-                        <td className='price'>13.00</td>
+                        <td className='price'>15.00</td>
                     </tr>
                     <tr>
                         <td>Korean fried cauliflower (gf)(v)(vg)</td>
-                        <td className='price'>12.00</td>
+                        <td className='price'>14.00</td>
                     </tr>
                 </table>
             </div>

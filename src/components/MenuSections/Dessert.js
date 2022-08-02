@@ -12,19 +12,19 @@ export class Dessert extends Component {
                     </tr>
                     <tr>
                         <td>Deep fried bao-nut, mirabelle plum sorbet, yuzu caramel (vg)</td>
-                        <td className='price'>4.50</td>
+                        <td className='price'>5.00</td>
                     </tr>
                     <tr>
                         <td>Chocolate torte, sesame ice cream (gf)(vg</td>
-                        <td className='price'>5.25</td>
+                        <td className='price'>6.00</td>
                     </tr>
                     <tr>
                         <td>Sticky toffee pudding, miso butterscotch, ginger ice cream (gf)(vg) 5</td>
-                        <td className='price'>5.25</td>
+                        <td className='price'>6.00</td>
                     </tr>
                     <tr>
                         <td>2 scoops of ice cream or sorbet (please ask for today’s flavours)</td>
-                        <td className='price'>2.50</td>
+                        <td className='price'>3.00</td>
                     </tr>
                 </table>
             </div>

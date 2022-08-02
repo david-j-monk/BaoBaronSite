@@ -23,11 +23,11 @@ export class Noodle extends Component {
                     </tr>
                     <tr>
                         <td><b>Panko free-range chicken mazemen</b><br />Wide noodles, curry tare, curried pork dripping, asparagus, smacked cucumber, free-range onsen egg</td>
-                        <td className='price'>14.00</td>
+                        <td className='price'>14.50</td>
                     </tr>
                     <tr>
                         <td><b>Crispy broccoli & aubergine mazemen</b><br />Wide noodles, mushroom & nori XO sauce, pak choi, pickled daikon, free-range onsen egg (v)(vg)</td>
-                        <td className='price'>13.00</td>
+                        <td className='price'>13.50</td>
                     </tr>
                 </table>
             </div>

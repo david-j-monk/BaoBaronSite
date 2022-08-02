@@ -11,19 +11,19 @@ export class BrunchRice extends Component {
                         <th colspan="2"><b>Rice Bowls</b></th>
                     </tr>
                     <tr>
-                        <th colspan="2"><i>Served with jasmine rice, kimchi, pickles, slaw, local leaves</i></th>
+                        <th colspan="2"><i>Served with jasmine rice, kimchi, pickles, slaw & local leaves</i></th>
                     </tr>
                     <tr>
                         <td>Korean fried chicken, pak choi, fried free range egg (gf) </td>
-                        <td className='price'>13.00</td>
+                        <td className='price'>15.00</td>
                     </tr>
                     <tr>
-                        <td>Korean fried cauliflower, pak choi, fried free range egg (gf)(v)(vg</td>
-                        <td className='price'>12.00</td>
+                        <td>Korean fried cauliflower, pak choi, fried free range egg (gf)(v)(vg)</td>
+                        <td className='price'>14.00</td>
                     </tr>
                     <tr>
                         <td>Smoked haddock kedgeree, curry tare, ramen egg (gf) </td>
-                        <td className='price'>12.50</td>
+                        <td className='price'>13.00</td>
                     </tr>
                 </table>
             </div>
