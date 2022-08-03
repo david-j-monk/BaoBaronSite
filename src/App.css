@@ -93,13 +93,12 @@ a:visited {
 .name {
     background-color: #ebebeb;
     color: rgb(0, 0, 0);
+    height: 2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .name:hover {
     border-bottom: 5px solid #000000;
-    height: 2em;
-    width: 30vw;
     transition: ease 0.5s;
 }
 
@@ -111,8 +110,6 @@ a:visited {
 
 .email:hover {
     border-bottom: 5px solid #000000;
-    height: 2em;
-    width: 30vw;
     transition: ease 0.5s;
 }
 
@@ -126,8 +123,6 @@ a:visited {
 
 .message:hover {
     border-bottom: 5px solid #000000;
-    height: 12em;
-    width: 30vw;
     transition: ease 0.5s;
 }
 
