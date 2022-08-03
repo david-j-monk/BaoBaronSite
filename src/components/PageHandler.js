@@ -7,6 +7,8 @@ import Publicity from "./Publicity";
 import Suppliers from "./Suppliers";
 import Booking from "./Booking";
 import Footer from "./Footer";
+import Feedback from "./Feedback";
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -37,6 +39,9 @@ export class PageHandler extends Component {
               </Route>
               <Route path="/booking">
                 <Booking />
+              </Route>
+              <Route path="/feedback">
+                <Feedback />
               </Route>
             </Switch>
   }
