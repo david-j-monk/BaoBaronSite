@@ -13,7 +13,7 @@ export class AboutUs extends Component {
         <br />
         <span className="bb-text-header">Open Hours</span>
         <br />
-        <span className="bb-open-days">Tues - Thur</span> : <span className="bb-open-time">12-2:30, 6-9</span>
+        <span className="bb-open-days">Wed - Thur</span> : <span className="bb-open-time">12-2:30, 6-9</span>
         <br />
         <span className="bb-open-days">Friday</span> : <span className="bb-open-time">12-2:30, 6-9:30</span>
         <br />
