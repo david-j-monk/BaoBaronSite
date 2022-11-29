@@ -7,7 +7,6 @@ export class Menu extends Component {
     return (
       <div className='menu'>
         <img src={menuimg} alt="menu"/>
-        <img src={glossaryimg} alt="menu"/>
       </div>
     )
   }
