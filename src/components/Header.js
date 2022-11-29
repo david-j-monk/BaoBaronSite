@@ -25,7 +25,7 @@ export class Header extends Component {
         <div className="bb-nav-links">
           <Link to="/home#about" className="bb-nav-link bouncy ripple" style={{ animationDelay: "0.07s" }}><NavItem name="About Us" /></Link>
           <Link to="/suppliers" className="bb-nav-link bouncy ripple" style={{ animationDelay: "0.14s" }}><NavItem name="Suppliers" /></Link>
-          <Link to="/menu" className="bb-nav-link bouncy ripple" style={{ animationDelay: "0.21s" }}><NavItem name="Menu" /></Link>
+          <Link to="/menu" className="bb-nav-link bouncy ripple" style={{ animationDelay: "0.21s" }}><NavItem name="Sample Menu" /></Link>
           <Link to="/booking" className="bb-nav-link bouncy ripple" style={{ animationDelay: "0.28s" }}><NavItem name="Booking" /></Link>
           <Link to="/publicity" className="bb-nav-link bouncy ripple" style={{ animationDelay: "0.35s" }}><NavItem name="Publicity" /></Link>
           <Link to="/feedback" className="bb-nav-link bouncy ripple" style={{ animationDelay: "0.42s" }}><NavItem name="Feedback" /></Link>
