@@ -13,13 +13,13 @@ export class AboutUs extends Component {
         <br />
         <span className="bb-text-header">Open Hours</span>
         <br />
-        <span className="bb-open-days">Wed - Thur</span> : <span className="bb-open-time">12-2:30, 6-9</span>
+        <span className="bb-open-days">Mon - Thur</span> : <span className="bb-open-time">6-8:30</span>
         <br />
-        <span className="bb-open-days">Friday</span> : <span className="bb-open-time">12-2:30, 6-9:30</span>
+        <span className="bb-open-days">Friday</span> : <span className="bb-open-time">12-2:30, 6-9</span>
         <br />
-        <span className="bb-open-days">Saturday</span> : <span className="bb-open-time">11-3, 5-9:30</span>
+        <span className="bb-open-days">Saturday</span> : <span className="bb-open-time">12-3, 5-9</span>
         <br />
-        <span className="bb-open-days">Sunday</span> : <span className="bb-open-time">11-3</span>
+        <span className="bb-open-days">Sunday</span> : <span className="bb-open-time">12-2:30</span>
 
       </div>
     )
