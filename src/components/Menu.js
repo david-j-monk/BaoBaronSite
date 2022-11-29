@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import menuimg from '../images/Menu.png';
-import glossaryimg from '../images/Glossary.png';
 
 export class Menu extends Component {
   render() {
